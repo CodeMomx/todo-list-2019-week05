@@ -1,0 +1,42 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+html{
+  text-align: center;
+  background: url(../notes.jpeg);
+  background-size: cover;
+  font-family: special elite, Helvitica , sans-serif;
+}
+
+h1{
+  font-size: 400%;
+}
+
+ul{
+  list-style: square;
+}
+button{
+  border-radius: 45%;
+}
+#clearList{
+  margin-top: 30%;
+  margin-right: 40%;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.cross{
+  text-decoration: line-through;
+  color: red;
+}
